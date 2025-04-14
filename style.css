@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container__card1 {
+    /*deixa os itens flexiveis*/
+  display: flex;
+  background-color: black;
+  gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
+  /*gap: distância entre os elementos filhos */
+ height: 100px;
+}
+
+.box1 {
+    /* (cor da fonte*/
+    color: white;
+    /* (cor do fundo*/
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+}
+
+.container__card2 {
+    display: flex;
+    background-color: white;
+    gap: 100px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
+    /*gap: distância entre os elementos filhos */
+   height: 100px;
+   justify-content: flex-end;
+   gap:10px;
+  }
+
+.box2 {
+    /*cor da fonte */
+    color: white;
+    /*centraliza os elementos horizontalmente */
+    justify-content: center; /*alinha os elementos horizontalmente */
+    display: flex;
+    align-items: center; /*alinha os elementos verticalmente */
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+}
+
+.container__card3 {
+    display: flex; */deixa os itens sua posições flexiveis só funciona com o display flex*/
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
+    /*gap: distância entre os elementos filhos */
+   height: 100px;
+   gap:10px;
+  }
+
+.box3 {
+    /*cor da fonte */
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+}
+
+.container__card4 {
+    display: flex; /*deixa os itens sua posições flexiveis só funciona com o display flex*/
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
+    /*gap: distância entre os elementos filhos */
+   height: 100px;
+   gap:10px;
+  }
+
+.box4 {
+    /*cor da fonte */
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+}
+
+.container__card5 {
+    display: flex; /*deixa os itens sua posições flexiveis só funciona com o display flex*/
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
+    /*gap: distância entre os elementos filhos */
+   height: 100px;
+  }
+
+.box5 {
+    /*cor da fonte */
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+}
+
+.container__card6 {
+    display: flex; /*deixa os itens sua posições flexiveis só funciona com o display flex*/
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
+    /*gap: distância entre os elementos filhos */
+   height: 100px;
+   gap:10px;
+  }
+
+.box6 {
+    /*cor da fonte */
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+}
