@@ -1,123 +1,186 @@
+/* configuração reset global da pagina */
 * {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.container__card1 {
-    /*deixa os itens flexiveis*/
-  display: flex;
-  background-color: black;
-  gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
-  /*gap: distância entre os elementos filhos */
- height: 100px;
-}
-
-.box1 {
-    /* (cor da fonte*/
-    color: white;
-    /* (cor do fundo*/
-    background-color: blue;
-    height: 40px;
-    width: 60px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .container__card1 {
+    /* deixa os itens e suas posições flexiveis */
+    display: flex;
+    /* cor de fundo */
+    background-color: black;
+    /* distância entre os elementos filhos */
+    gap: 10px;
+    /* altura do elemento */
+    height: 100px;
+  }
+  
+  .box1 {
+    /*  alinha o texto horizontalmente */
     text-align: center;
-}
-
-.container__card2 {
-    display: flex;
-    background-color: white;
-    gap: 100px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
-    /*gap: distância entre os elementos filhos */
-   height: 100px;
-   justify-content: flex-end;
-   gap:10px;
-  }
-
-.box2 {
-    /*cor da fonte */
+    /* cor da fonte */
     color: white;
-    /*centraliza os elementos horizontalmente */
-    justify-content: center; /*alinha os elementos horizontalmente */
-    display: flex;
-    align-items: center; /*alinha os elementos verticalmente */
+    /* cor de fundo */
     background-color: blue;
+    /* altura */
     height: 40px;
+    /* largura */
     width: 60px;
-}
-
-.container__card3 {
-    display: flex; */deixa os itens sua posições flexiveis só funciona com o display flex*/
+  }
+  
+  .container__card2 {
+    /* deixa os itens e suas posições flexiveis */
+    display: flex;
+    /* cor de fundo */
+    background-color: white;
+    /* altura */
+    height: 100px;
+    /* alinha os elementos no final da pagina */
+    justify-content: flex-end;
+    /* distancia entre os elementos filhos */
+    gap: 10px;
+  }
+  
+  .box2 {
+    /* deixa os itens e suas posições flexiveis */
+    display: flex;
+    /* centraliza os elementos horizontalmente */
     justify-content: center;
-    align-items: center;
-    background-color: white;
-    gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
-    /*gap: distância entre os elementos filhos */
-   height: 100px;
-   gap:10px;
-  }
-
-.box3 {
-    /*cor da fonte */
+    /* cor da fonte */
     color: white;
+    /* cor de fundo */
     background-color: blue;
+    /* largura */
     height: 40px;
+    /* altura */
     width: 60px;
-}
-
-.container__card4 {
-    display: flex; /*deixa os itens sua posições flexiveis só funciona com o display flex*/
+  }
+  
+  .container__card3 {
+    /* deixa os itens e suas posições flexiveis */
+    display: flex;
+    /* centraliza os elementos */
+    align-items: center;
+    /* centraliza os elementos filhos horizontalmente */
+    justify-content: center;
+    /* cor de fundo */
+    background-color: black;
+    /* distância entre os elementos filhos */
+    gap: 10px;
+    /* altura do elemento */
+    height: 100px;
+  }
+  
+  .box3 {
+    /* cor da fonte */
+    color: white;
+    /* cor de fundo */
+    background-color: blue;
+    /* altura */
+    height: 40px;
+    /* largura */
+    width: 60px;
+  }
+  
+  .container__card4 {
+    /* deixa os itens e suas posições flexiveis */
+    display: flex;
+    /* espalha os elementos filho horizontalmente */
     justify-content: space-around;
-    align-items: center;
+    /* cor de fundo */
     background-color: white;
-    gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
-    /*gap: distância entre os elementos filhos */
-   height: 100px;
-   gap:10px;
+    /* altura */
+    height: 100px;
+    /* alinha os elementos no final da pagina */
   }
-
-.box4 {
-    /*cor da fonte */
+  
+  .box4 {
+    /* deixa os itens e suas posições flexiveis */
+    display: flex;
+    /* centraliza os elementos horizontalmente */
+    justify-content: center;
+    /* cor da fonte */
     color: white;
+    /* cor de fundo */
     background-color: blue;
+    /* largura */
     height: 40px;
+    /* altura */
     width: 60px;
-}
-
-.container__card5 {
-    display: flex; /*deixa os itens sua posições flexiveis só funciona com o display flex*/
+  }
+  
+  .container__card5 {
+    /* deixa os itens e suas posições flexiveis */
+    display: flex;
+    /* espalha os elementos filho horizontalmente de forma igualitaria */
     justify-content: space-evenly;
-    align-items: center;
-    background-color: white;
-    gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
-    /*gap: distância entre os elementos filhos */
-   height: 100px;
+    /* centraliza os elementos filhos verticalmente */
+    background-color: black;
+    /* distância entre os elementos filhos */
+    gap: 10px;
+    /* altura do elemento */
+    height: 100px;
   }
-
-.box5 {
-    /*cor da fonte */
+  
+  .box5 {
+    /* cor da fonte */
     color: white;
+    /* cor de fundo */
     background-color: blue;
+    /* altura */
     height: 40px;
+    /* largura */
     width: 60px;
-}
-
-.container__card6 {
-    display: flex; /*deixa os itens sua posições flexiveis só funciona com o display flex*/
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    gap: 10px; /* (deixa os itens flexiveis e suas posições)só funciona com o display flex*/
-    /*gap: distância entre os elementos filhos */
-   height: 100px;
-   gap:10px;
   }
+  
+  .container__card6 {
+      /* deixa os itens e suas posições flexiveis */
+      display: flex;
+      /* espalha os elementos filho horizontalmente */
+      justify-content: space-between;
+      /* cor de fundo */
+      background-color: white;
+      /* altura */
+      height: 100px;
+      /* alinha os elementos no final da pagina */
+    }
+    
+    .box6 {
+      color: white;
+      /* cor de fundo */
+      background-color: blue;
+      /* largura */
+      height: 40px;
+      /* altura */
+      width: 60px;
+    }
 
-.box6 {
-    /*cor da fonte */
-    color: white;
-    background-color: blue;
-    height: 40px;
-    width: 60px;
-}
+    .container__card7 {
+        /* deixa os itens e suas posições flexiveis */
+        display: flex;
+        /* muda a direção de alinhamento dos itens */
+        flex-direction: column;
+        /* espalha os elementos filho verticalmente por causa do flex direction */
+        justify-content: space-between;
+        /* centraliza os elementos filhos verticalmente */
+        align-items: flex-end; 
+        background-color: black;
+        /* distância entre os elementos filhos */
+        gap: 10px;
+        /* altura do elemento */
+        height: 100px;
+      }
+      
+      .box7 {
+        /* cor da fonte */
+        color: white;
+        /* cor de fundo */
+        background-color: blue;
+        /* altura */
+        height: 40px;
+        /* largura */
+        width: 60px;
+      }
